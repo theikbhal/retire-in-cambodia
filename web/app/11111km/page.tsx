@@ -82,7 +82,7 @@ export default function ElevenThousandKmPage() {
                                     <h4 className="font-bold text-green-800 mb-1">⏱️ Travel Time</h4>
                                     <p className="text-green-900 font-mono text-2xl">~12 Hours</p>
                                     <p className="text-green-700 text-xs">
-                                        Tirupati -> Chennai (3hr) -> Bangkok (4hr) -> Siem Reap (1hr) + Layovers
+                                        Tirupati → Chennai (3hr) → Bangkok (4hr) → Siem Reap (1hr) + Layovers
                                     </p>
                                 </div>
                             </div>
