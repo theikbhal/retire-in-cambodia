@@ -13,6 +13,7 @@ export const metadata = {
 // ---------------------------------------------------------
 const ADDITIONAL_PAGES = [
   { href: '/videos', label: '🎥 Video Gallery', description: 'Watch city tours and interviews' },
+  { href: '/channels', label: '📺 YouTube Channels', description: 'Recommended vloggers & creators' },
   { href: '/cost-of-living', label: '💸 Cost of Living', description: 'Real budget breakdown from UK retirees' },
   { href: '/rent', label: '🏠 Renting Guide', description: 'Apartment prices & landlord tips' },
   { href: '/what-we-like', label: '❤️ What We Like', description: 'Affordability, People, & Food' },
@@ -59,6 +60,7 @@ const ADDITIONAL_PAGES = [
   { href: '/relax', label: '🧘 The Relaxed Life', description: 'Stress-free living guide' },
   { href: '/first-time', label: '🆕 First Time Guide', description: 'Step-by-step arrival guide' },
   { href: '/expectations', label: '🤔 Expectation vs Reality', description: 'The honest truth about living here' },
+  { href: '/site-index', label: '📂 Site Index', description: 'List of all pages with URLs' },
   { href: '/hospitals', label: '🏥 Healthcare (Coming Soon)', description: 'Medical facilities guide' },
 ];
 // ---------------------------------------------------------
