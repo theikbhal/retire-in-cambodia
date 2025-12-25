@@ -6,6 +6,19 @@ export const metadata = {
   description: 'A comprehensive guide for retirees planning to live in Siem Reap. Costs, healthcare, visas, and safety ratings.',
 };
 
+// ---------------------------------------------------------
+// AUTO-UPDATING PAGE LIST
+// Add new pages here to have them automatically appear
+// in the "More Resources" section.
+// ---------------------------------------------------------
+const ADDITIONAL_PAGES = [
+  { href: '/videos', label: '🎥 Video Gallery', description: 'Watch city tours and interviews' },
+  { href: '/first-time', label: '🆕 First Time Guide', description: 'Step-by-step arrival guide' },
+  { href: '/expectations', label: '🤔 Expectation vs Reality', description: 'The honest truth about living here' },
+  { href: '/hospitals', label: '🏥 Healthcare (Coming Soon)', description: 'Medical facilities guide' },
+];
+// ---------------------------------------------------------
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-50 text-gray-900 font-sans">
@@ -112,6 +125,29 @@ export default function Home() {
               <ListItem text="Those who dislike constant tropical heat" type="bad" />
             </ul>
           </div>
+        </div>
+      </section>
+
+      {/* NEW: More Resources / Pages List */}
+      <section className="py-12 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
+        <h2 className="text-2xl font-bold text-gray-900 mb-6">
+          More Resources
+        </h2>
+        <div className="grid sm:grid-cols-2 gap-4">
+          {ADDITIONAL_PAGES.map((page) => (
+            <Link
+              key={page.href}
+              href={page.href}
+              className="block p-6 bg-white border border-gray-100 rounded-xl hover:border-blue-400 hover:shadow-md transition-all group"
+            >
+              <h3 className="text-lg font-bold text-gray-900 group-hover:text-blue-600 mb-1">
+                {page.label}
+              </h3>
+              <p className="text-gray-500 text-sm">
+                {page.description}
+              </p>
+            </Link>
+          ))}
         </div>
       </section>
 
