@@ -26,12 +26,18 @@ export default function Home() {
               Estimated Monthly Cost: <span className="font-bold text-2xl">$800 – $1,000</span>
             </p>
           </div>
-          <div>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
               href="/#pricing"
               className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition duration-200 shadow-md transform hover:-translate-y-0.5"
             >
               Get Full Retirement Guide
+            </Link>
+            <Link
+              href="/videos"
+              className="inline-flex items-center text-gray-600 hover:text-blue-600 font-semibold py-3 px-6 rounded-lg transition duration-200"
+            >
+              <span className="mr-2">🎥</span> Watch City Videos
             </Link>
           </div>
         </div>
