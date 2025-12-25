@@ -16,6 +16,7 @@ const ADDITIONAL_PAGES = [
   { href: '/videos', label: '🎥 Video Gallery', description: 'Watch city tours and interviews' },
   { href: '/channels', label: '📺 YouTube Channels', description: 'Recommended vloggers & creators' },
   { href: '/cost-of-living', label: '💸 Cost of Living', description: 'Real budget breakdown from UK retirees' },
+  { href: '/couple-1500-month', label: '👫 Couple on $1,500/Mo', description: 'Phnom Penh, Kampot & Siem Reap' },
   { href: '/five-hundred-dollar-budget', label: '📉 $500/Mo Budget', description: 'Is it actually possible?' },
   { href: '/rent', label: '🏠 Renting Guide', description: 'Apartment prices & landlord tips' },
   { href: '/what-we-like', label: '❤️ What We Like', description: 'Affordability, People, & Food' },
