@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import GoogleSearch from './components/GoogleSearch';
 
 export const metadata = {
   title: 'Retire in Siem Reap, Cambodia | $800/mo Pension Lifestyle',
@@ -105,6 +106,12 @@ export default function Home() {
           <p className="text-xl text-gray-600 mb-8 leading-relaxed">
             A calm, affordable retirement city where your pension actually works.
           </p>
+
+          {/* Google Search */}
+          <div className="mb-8">
+            <GoogleSearch />
+          </div>
+
           <div className="bg-green-50 border border-green-100 rounded-xl p-4 inline-block mb-8">
             <p className="text-green-800 font-medium">
               Estimated Monthly Cost: <span className="font-bold text-2xl">$800 – $1,000</span>
