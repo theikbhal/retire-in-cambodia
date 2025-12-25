@@ -13,6 +13,10 @@ export const metadata = {
 // ---------------------------------------------------------
 const ADDITIONAL_PAGES = [
   { href: '/videos', label: '🎥 Video Gallery', description: 'Watch city tours and interviews' },
+  { href: '/cost-of-living', label: '💸 Cost of Living', description: 'Real budget breakdown from UK retirees' },
+  { href: '/retire-55', label: '👴 Retire at 55', description: 'Visa rules & requirements made easy' },
+  { href: '/quiet', label: '🍃 A Quiet Life', description: 'Why choose Siem Reap over Phnom Penh' },
+  { href: '/relax', label: '🧘 The Relaxed Life', description: 'Stress-free living guide' },
   { href: '/first-time', label: '🆕 First Time Guide', description: 'Step-by-step arrival guide' },
   { href: '/expectations', label: '🤔 Expectation vs Reality', description: 'The honest truth about living here' },
   { href: '/hospitals', label: '🏥 Healthcare (Coming Soon)', description: 'Medical facilities guide' },
