@@ -27,6 +27,7 @@ const ADDITIONAL_PAGES = [
   { href: '/chef-story', label: '👨‍🍳 Chef Story', description: 'Ex-London chef profile' },
   { href: '/kelly-autumn-in-asia', label: '🎥 Kelly: Autumn in Asia', description: 'Living in Siem Reap for $700/mo' },
   { href: '/five-reasons-kelly', label: '🍂 5 Reasons Kelly Moved', description: 'Why he chose Cambodia' },
+  { href: '/kelly-apartment-tour', label: '🏠 Kelly\'s Apartment Tour', description: '$300/mo 2-bed with rooftop' },
   { href: '/before-you-come', label: '🛑 Before You Come', description: 'The #1 Rule: Respect' },
   { href: '/respect', label: '🙏 Respect Locals', description: 'Cultural do\'s and don\'ts' },
   { href: '/people', label: '🤝 The People', description: 'Why they are rated 10/10' },
