@@ -63,6 +63,7 @@ const ALL_PAGES = [
     { href: '/connectivity', label: '✈️ Flight Connectivity', description: '1hr to Bangkok, Vietnam, & more' },
     { href: '/buying-motorbike', label: '🛵 Buying a Motorbike', description: 'Used bikes from $1,550' },
     { href: '/passapp-cambodia', label: '🛵 PassApp Guide', description: 'Ride-hailing for $2/trip' },
+    { href: '/how-to-use-passapp', label: '📱 How to Use PassApp', description: 'Step-by-step tutorial' },
     { href: '/grab-cambodia', label: '🚗 Grab Cambodia', description: 'Book cars, bikes & tuk-tuks' },
     { href: '/flow', label: '🌊 Go With The Flow', description: 'Mindset shift required' },
     { href: '/slow-down', label: '🧘 Slow Down', description: 'The greatest gift of SE Asia' },
