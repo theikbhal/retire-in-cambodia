@@ -31,6 +31,7 @@ const ADDITIONAL_PAGES = [
   { href: '/muslim-cambodia', label: '🕌 Muslims in Cambodia', description: 'The Cham community & Halal food' },
   { href: '/muslim-community-stats', label: '📊 300,000 Muslims', description: 'Can you visit 1%?' },
   { href: '/siem-reap-muslims', label: '🕌 Muslims in Siem Reap', description: '2,028 Cham residents (0.2%)' },
+  { href: '/kampong-treak-mosque', label: '🕌 Kampong Treak Mosque', description: 'Largest mosque in Kampot' },
   { href: '/friendly', label: '😊 Friendly Locals', description: 'Genuine warmth & smiles' },
   { href: '/learning-from-you', label: '📚 Learning Exchange', description: 'Helping locals practice English' },
   { href: '/smiles', label: '😊 Land of Smiles?', description: 'Cambodia vs Thailand' },
