@@ -9,7 +9,10 @@ export const metadata = {
 // This list should be kept in sync with the homepage list
 const ALL_PAGES = [
     { href: '/videos', label: '🎥 Video Gallery', description: 'Watch city tours and interviews' },
+    { href: '/bryan-discovers-world', label: '🌍 Bryan Discovers World', description: 'Budget travel & retirement' },
+    { href: '/glenn-and-sophanny', label: '🇦🇺🇰🇭 Glenn and Sophanny', description: 'Living under $800/month' },
     { href: '/cost-of-living', label: '💸 Cost of Living', description: 'Real budget breakdown from UK retirees' },
+    { href: '/under-800-month', label: '💰 Under $800/Month', description: 'Complete budget for 2 people' },
     { href: '/couple-1500-month', label: '👫 Couple on $1,500/Mo', description: 'Phnom Penh, Kampot & Siem Reap' },
     { href: '/five-hundred-dollar-budget', label: '📉 $500/Mo Budget', description: 'Is it actually possible?' },
     { href: '/rent', label: '🏠 Renting Guide', description: 'Apartment prices & landlord tips' },
@@ -42,6 +45,7 @@ const ALL_PAGES = [
     { href: '/smiles', label: '😊 Land of Smiles?', description: 'Cambodia vs Thailand' },
     { href: '/cambodia-vs-thailand-video', label: '🥊 Cambodia vs Thailand Video', description: 'Why it beats Thailand (mostly)' },
     { href: '/expat', label: '🌍 Expat Community', description: 'Making friends & social life' },
+    { href: '/cambodia-broke-expats', label: '💔 5 Ways Cambodia Broke Expats', description: 'The honest dark side' },
     { href: '/celeste-phnom-penh', label: '🇿🇦 Celeste: Phnom Penh Life', description: 'Teaching ESL, $180 apartments' },
     { href: '/south-africa-to-cambodia', label: '✈️ South Africa → Cambodia', description: 'Single mom\'s journey to peace' },
     { href: '/london-vs-siem-reap', label: '🇬🇧 vs 🇰🇭 Migration', description: 'Londoner Case Study' },
